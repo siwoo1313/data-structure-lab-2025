@@ -1,1 +1,1 @@
-#include "Complex.h"#include "Car.h"int main(){	Complex a, b, c;	a.read("A= ");	a.print("A = ");	Car myCar;	Car momsCar(10, "K5", 2);	myCar.whereAmI();	momsCar.whereAmI();	myCar.changeGear(3);	myCar.display();}
+#include "Complex.h"#include "Car.h"int main(){	//Complex a, b, c;	//a.read("A= ");	//a.print("A = ");	Car myCar;	Car momsCar(10, "K5", 2);	SportsCar mySecondCar;	myCar.whereAmI();	momsCar.whereAmI();	myCar.changeGear(3);	myCar.display();	mySecondCar.setTurbo(true);}#include "Music.h"int main() {	Music myMusic("")}
