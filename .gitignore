@@ -457,11 +457,6 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,c++,windows
 
-# 무시할 실행파일, 이미지, 빌드 폴더
-*.exe
-*.png
-*.pdb
-*.mp4
 
 Debug/
 Release/
